@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Get from "./Get/get";
-import Put from "./Put/Put";
+import Put from "./Post/Post";
 import Update from "./Update/Update";
 
 function App() {
@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Get />} />
-        <Route path="/put" element={<Put />} />
+        <Route path="/post" element={<Post />} />
         <Route path="/update/:id" element={<Update />} />
       </Routes>
     </Router>
