@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Get from "./Get/get";
-import Put from "./Post/Post";
+import Put from "./Put/Post";
 import Update from "./Update/Update";
 
 function App() {
