@@ -2,7 +2,7 @@ import React from "react";
 import { collection, addDoc } from "firebase/firestore";
 import { db } from "../Config/Firbase";
 import { useNavigate } from "react-router-dom";
-import "./Put.css";
+import "./Post.css";
 
 const Post = () => {
   const navigate = useNavigate();
