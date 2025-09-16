@@ -33,7 +33,7 @@ const Get = () => {
           <h1>REALTIME CRUD</h1>
         </div>
         <div className="create">
-          <Link to={"/Put"}> Create +</Link>
+          <Link to={"/Post"}> Create +</Link>
         </div>
       </div>
       <div className="table">
