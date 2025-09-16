@@ -4,7 +4,7 @@ import { db } from "../Config/Firbase";
 import { useNavigate } from "react-router-dom";
 import "./Put.css";
 
-const Put = () => {
+const Post = () => {
   const navigate = useNavigate();
 
   const submit = async (e) => {
@@ -37,4 +37,4 @@ const Put = () => {
   );
 };
 
-export default Put;
+export default Post;
